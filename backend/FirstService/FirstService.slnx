@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FirstService.Contracts/FirstService.Contracts.csproj" />
+    <Project Path="src/FirstService.Core/FirstService.Core.csproj" />
+    <Project Path="src/FirstService.Domain/FirstService.Domain.csproj" />
+    <Project Path="src/FirstService.Infrastructure.Postgres/FirstService.Infrastructure.Postgres.csproj" />
+    <Project Path="src/FirstService.Web/FirstService.Web.csproj" />
+  </Folder>
+</Solution>

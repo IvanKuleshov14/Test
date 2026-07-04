@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstService.Contracts\FirstService.Contracts.csproj" />
+    <ProjectReference Include="..\FirstService.Core\FirstService.Core.csproj" />
+    <ProjectReference Include="..\FirstService.Domain\FirstService.Domain.csproj" />
+    <ProjectReference Include="..\FirstService.Infrastructure.Postgres\FirstService.Infrastructure.Postgres.csproj" />
+  </ItemGroup>
+
+</Project>
