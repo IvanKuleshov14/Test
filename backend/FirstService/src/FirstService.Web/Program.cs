@@ -6,11 +6,15 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddControllers();
 
+builder.Services.AddHealthChecks();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
 app.MapControllers();
+
+app.MapHealthChecks("/health");
 
 if (!app.Environment.IsProduction())
 {
